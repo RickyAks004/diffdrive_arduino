@@ -98,7 +98,7 @@ def generate_launch_description():
 
     nodes = [
         control_node,
-        robot_state_pub_node,
+        robot_state_pub_node, #look for it change it at the end.
         joint_state_broadcaster_spawner,
         delay_rviz_after_joint_state_broadcaster_spawner,
         delay_robot_controller_spawner_after_joint_state_broadcaster_spawner,
